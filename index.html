@@ -1,1 +1,219 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web development, responsive web design, mobile-first design, html5, css3, JavaScript">
+    <title>Dario-WEB Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h3 class="navbar__logo">
+                <a href="index.html">&lt;Dario-WEB&gt;</a>
+            </h3>
+            <!-- <a class="navbar__btn" aria-label="navigation button" id="nav-btn">
+                    &#9776;
+                </a> -->
+            <div class="navbar__menu" id="nav-menu">
+                <ul class="navbar__list flex m-0">
+                    <li class="navbar__item">
+                        <a href="#top" class="navbar__link">
+                                Home
+                            </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about-me" class="navbar__link">
+                                About me
+                            </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#work" class="navbar__link">
+                                My work
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <section class="top" id="top">
+                <div class="top__grid">
+                    <h1 class="top__title">
+                        Hi, I'm<br>
+                        <strong>Dario</strong>
+                    </h1>
+                    <img src="img/dario.png" alt="Dario" class="top__img">
+                </div>
+            </section>
+
+            <section class="about" id="about-me">
+                <div class="about__container">
+                    <h2 class="about__title">
+                        About me...
+                    </h2>
+                    <div class="about__content">
+                        <p>
+                            When you're passionate about programming, you learn and discover new things almost every day.
+                            <br> I enjoy learning about web development (html, CSS, JavaScript, PHP...), and responsive, mobile first web design concepts.
+                        </p>
+                        <p>
+                            You can contact me on
+                            <span class="about__btn">
+                                <a href="mailto:dario@dario-web.tech">
+                                    dario@dario-web.tech
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="work" id="work">
+            <div class="work__container">
+                <h2 class="work__title">
+                    My work...
+                </h2>
+                <p class="work__subtitle">
+                    You can check some of my practice work below.
+                </p>
+                <div class="work__gallery">
+                    <div class="work__gallery--card">
+                        <img src="img/weather.png" alt="World weather" class="work__gallery--img">
+                        <h3 class="work__gallery--title">World Weather</h3>
+                        <p class="work__gallery--content">
+                            Weather conditions and 7 day forecast with Openweathermap API<br><br> JavaScript, PHP, MySQL
+                        </p>
+                        <div class="work__gallery--btn-container">
+                            <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/weather/index.php" target="_blank">
+                                Try it!
+                            </a>
+                            </span>
+                            <span class="work__gallery--btn">
+                                <a href="https://github.com/DacOsk/World-weather" target="_blank">
+                                    GitHub repo
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="work__gallery--card">
+                        <img src="img/quiz.png" alt="Quick Quiz" class="work__gallery--img">
+                        <h3 class="work__gallery--title">Quick Quiz</h3>
+                        <p class="work__gallery--content">
+                            Simple quiz, questions are loaded via API from Open Trivia DB.<br><br> JavaScript
+                        </p>
+                        <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/quiz-api/index.html" target="_blank">
+                                Try it!
+                            </a>
+                        </span>
+                    </div>
+                    <div class="work__gallery--card">
+                        <img src="img/colorgame.png" alt="Color guessing game" class="work__gallery--img">
+                        <h3 class="work__gallery--title">Color guessing game</h3>
+                        <p class="work__gallery--content">
+                            Guess color from RGB values.<br><br> JavaScript
+                        </p>
+                        <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/colorgame/index.html" target="_blank">
+                                Try it!
+                            </a>
+                        </span>
+                    </div>
+                    <div class="work__gallery--card">
+                        <img src="img/dice_game.png" alt="Color guessing game" class="work__gallery--img">
+                        <h3 class="work__gallery--title">Dice game</h3>
+                        <p class="work__gallery--content">
+                            Game for two playes.<br><br> JavaScript
+                        </p>
+                        <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/dice_game/index.html" target="_blank">
+                                Try it!
+                            </a>
+                        </span>
+                    </div>
+                    <div class="work__gallery--card">
+                        <img src="img/newyear.png" alt="Happy New Year" class="work__gallery--img">
+                        <h3 class="work__gallery--title">Happy New Year</h3>
+                        <p class="work__gallery--content">
+                            Animated New Year greeting card.<br><br> jQuery
+                        </p>
+                        <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/newyear.html" target="_blank">
+                                Try it!
+                            </a>
+                        </span>
+                    </div>
+                    <div class="work__gallery--card">
+                        <img src="img/christmas.png" alt="Merry Christmas" class="work__gallery--img">
+                        <h3 class="work__gallery--title">Merry Christmas</h3>
+                        <p class="work__gallery--content">
+                            Animated Christmas greeting card.<br><br> jQuery
+                        </p>
+                        <span class="work__gallery--btn">
+                            <a href="http://www.dario-web.tech/portfolio/christmas.html" target="_blank">
+                                Try it!
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <div class="up-button hide">
+            <i class="far fa-arrow-alt-circle-up" title="Go Up" tabindex="0"></i>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <span class="footer__logo">
+            &copy;2020 
+            <a href="index.html">dario-WEB.tech</a>
+        </span>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="https://www.facebook.com/dario.stranjak" class="footer__link" title="facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="https://www.linkedin.com/in/dario-stranjak-408948106/" class="footer__link" title="linked in" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="https://github.com/DacOsk" class="footer__link" title="github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="https://codepen.io/Dac_Os_Hr/" class="footer__link" title="codepen" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="mailto:dario@dario-web.tech" class="footer__link" title="e-mail">
+                    <i class="fas fa-at"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
