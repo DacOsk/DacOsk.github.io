@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Scrimba challenge Create dice game">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dice game</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <div id="player1">
+                <h1>Score: <span id="player1Score">0</span></h1>
+                <div id="player1Dice" class="active">-</div>
+            </div>
+            <div id="player2">
+                <h1>Score: <span id="player2Score">0</span></h1>
+                <div id="player2Dice">-</div>
+            </div>
+
+            <button id="btnRoll">Roll Dice</button>
+        </div>
+		<div class="container rules">
+			<h3 class="rules__title">Rules</h3>
+			<ul class="rules__list">
+			  <li>Players roll the dice once during their turn</li>
+			  <li>Roll the dice to get a number, and add it to your score</li>
+			  <li>If your score is 20 or more, you win the game</li>
+			  <li>If you roll the number 1 at any point you lose</li>
+			</ul>
+			<p class="rules__credits">Based on Scrimba challenge "Dice game"</p>
+		</div>
+        <script src="index.js"></script>
+    </body>
+</html>

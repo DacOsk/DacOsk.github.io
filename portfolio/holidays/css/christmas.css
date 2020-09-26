@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("../images/Forest-Scene.JPG");
+    background-size: cover;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Norican', cursive;
+    color: goldenrod;
+}

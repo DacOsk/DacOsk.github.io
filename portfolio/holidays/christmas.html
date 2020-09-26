@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Merry Christmas</title>
+    <link rel="stylesheet" href="util/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Norican&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/christmas.css">
+    <script src="util/bootstrap.bundle.min.js"></script>
+    <script src="util/jquery.min.js"></script>
+    <script src="util/jquery.snowfall.js"></script>
+</head>
+
+<body id="christmas">
+    <div class="jumbotron bg-transparent">
+        <h1 class="text-center mt-5 display-1">Merry Christmas</h1>
+        <h1 class="text-center display-1">and happy New Year</h1>
+    </div>
+    <footer class="row justify-content-between fixed-bottom">
+        <div class="col-sm-4 col-lg-3 mx-2">2019&copy;<a href="mailto:dario@dario-web.tech&subject=link%20from%20webpage">dario@dario-web.tech</a></div>
+    <div class="col-sm-4 col-lg-3 text-right mx-2">image &copy;<a href="http://www.forestwander.com">ForestWander.com</a></div>
+    </footer>
+    <script>
+        $.snowfall.start({
+            content: '<i class="fa fa-snowflake-o"></i>',
+            size: {
+                min: 10,
+                max: 40
+            },
+            interval: 500,
+            disappear: 'linear'
+        });
+    </script>
+
+</body>
+
+</html>
